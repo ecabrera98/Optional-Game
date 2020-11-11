@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GAME LOVE EDCP</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="img/nat.JPG" class="avatar" alt="Avatar Image">
+      <h1>Sóla la mujer más linda puede entrar</h1>
+      <FORM name=form action="sorpresa1.html">
+        <!-- USERNAME INPUT -->
+        <label for="username">Username</label>
+        <INPUT type=text name=login> 
+        <!-- PASSWORD INPUT -->
+        <label for="password">Password</label>
+        <INPUT type=password name=password> 
+        <!-- <input type="submit" value="Log In"> -->
+		<INPUT onclick=go() type=button value=Acceder>
+      </form>
+    </div>
+	<footer>
+        <h2 class="titulo-final">&copy; GAMES LOVE | BY EDCP</h2>
+    </footer>
+<SCRIPT  language=JavaScript> 
+function go(){
+
+if (document.form.password.value=='flaquita' && document.form.login.value=='Nathy'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Por favor ingrese, nombre de usuario: Nathy y la contraseña proporcionada por Chris."); 
+    } 
+} 
+</SCRIPT> 
+  </body>
+</html>
