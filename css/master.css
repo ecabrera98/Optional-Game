@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../img/b.png) no-repeat center top;
+  background: url(../img/b.gif) no-repeat center top;
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
@@ -83,4 +83,45 @@ body {
 
 .login-box a:hover {
   color: #fff;
+}
+
+
+/* footer */
+
+footer{
+  background: #686060;
+  padding: 5px 0 5px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-footer{
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+  text-align: center;
+}
+
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 5px 0 0 0;
+  color: #2c2323;
 }
